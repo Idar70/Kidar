@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "business-nxt": {
+      "type": "http",
+      "url": "https://mcp.business.visma.net/"
+    }
+  }
+}
