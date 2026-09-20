@@ -4,3 +4,7 @@ __pycache__/
 .venv/
 venv/
 .env
+
+# Freshdesk data (kundedata, ikke kode)
+Prosjekter/Freshdesk/freshdesk.db
+Prosjekter/Freshdesk/freshdesk_rapport.xlsx
