@@ -1,10 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "PowerShell($py = \"C:\\\\Users\\\\Idar.COMPUTE\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\py.exe\"; $sw = [System.Diagnostics.Stopwatch]::StartNew\\(\\); \"2\" | & $py \"c:\\\\Data\\\\AI\\\\business_nxt\\\\nxt_price_import\\\\import_prices.py\"; $sw.Stop\\(\\); Write-Output \"Total tid: $\\($sw.Elapsed.ToString\\('mm\\\\:ss\\\\.fff'\\)\\)\")",
-      "PowerShell($py = \"C:\\\\Users\\\\Idar.COMPUTE\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\py.exe\"; $sw = [System.Diagnostics.Stopwatch]::StartNew\\(\\); \"1\" | & $py \"c:\\\\Data\\\\AI\\\\business_nxt\\\\nxt_price_import\\\\import_prices.py\"; $sw.Stop\\(\\); Write-Output \"Total tid: $\\($sw.Elapsed.ToString\\('mm\\\\:ss\\\\.fff'\\)\\)\")",
-      "Bash(time echo \"1\")",
-      "Bash(py import_prices.py)"
+      "Bash(time echo \"1\")"
     ]
   }
 }
